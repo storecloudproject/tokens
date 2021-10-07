@@ -2,14 +2,22 @@
 
 Two token standards are expected, one for fungible tokens and one for non-fungible tokens. These are tentatively called `STORE-UTILITY` and `STORE-NFT` respectively.
 
-## Use-cases
+## STORE-UTILITY
 
-These token types can be used for any use-case which developers choose.
+### Use-cases
 
-Fungible tokens tend to be more common in decentralized finance applications, often used for synthetic assets, equity tokens, utility tokens, etc. Fungible tokens may also be used as social tokens, to represent fractionalized ownership of NFTs, etc.
-
-Non-fungible tokens are more commonly used to represent digital art, gaming items, ownership of real-world assets like property, as well as certain financial instruments like insurance policies, liquidity provider positions, and so on.
+STORE-UTILITY tokens have limitless use-cases as they are fully general purpose and programmable. These tokens may be used in financial applications such as for synthetic assets, equity tokens, utility tokens, social tokens, fractionalized ownership of non-fungible tokens, etc.
 
 ## Yield Generation
 
-Either token type can, in principle, generate yield for the holder. As both `STORE-UTILITY` and `STORE-NFT` are fully programmable, both can grant the holder ownership of some financial asset, access to some revenue stream, payout in the case of some event, etc.
+As these tokens are fully general purpose, whether they generate yield will depend entirely on their use-case. If they grant ownership to some financial asset, or access to some revenue stream, or payout in the case of some event, they may generate yield.
+
+## STORE-NFT
+
+### Use-cases
+
+STORE-NFT are non-fungible and can be used to grant ownership of digital art/collectibles, gaming items, real world assets, or similar. They may be used to grant access/permission to a user for some app or service. STORE-NFT can also represent ownership of some financial contract like an insurance policy or liquidity provider position (similar to Uniswap V3 LP NFTs).
+
+## Yield Generation
+
+STORE-NFT are general purpose programmable tokens, so they may grant yield to the token holder if they represent ownership of some cash-flow or financial asset.
